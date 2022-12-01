@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+  
+header li {
+  float: left;
+}
+
+ul.card-details li {
+  display: block;
+}
+
+.top-nav {
+  overflow: hidden;
+}
+
+.top-nav a {
+  float: left;
+  display: block;
+  color: rgb(90, 20, 143);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+.top-nav a:hover {
+    border-bottom: 3px solid red;
+}
+.top-nav a.active {
+    border-bottom: 3px solid red;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: center
+}
+
+.feature {
+  height: 60vh;
+  width: 60vw;
+}
+
+.card {
+  box-shadow: 2px 2px 20px 2px gray;
+  background-color: var(--primary);
+  padding: 2em 3em;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-weight: 700;
+  color: var(--contrast-text-color);
+}
+
+.grid {
+  margin-top: 2em;
+  display: flex;
+}
+
+.floating-imgs {
+  position: absolute;
+}
+
+.floating-imgs.floating-to-right-img {
+  right: 5%;
+  top: 40vh;
+}
+
+.floating-imgs.floating-to-left-img {
+  left: 20%;
+  margin-top: 20%;
+}
+
+.floating-imgs.floating-center-img {
+}
+
+.floating-img-wrapper {
+  position: relative;
+  margin-top: -200px;
+}
+
