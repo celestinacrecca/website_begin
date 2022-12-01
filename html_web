@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOME-PAGE_BERONDO</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/constants.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/extra.css" />
+</head>
+<body>
+    <main>
+        <!-- feature -->
+
+        <div class="container-fluid">
+            <div class="feature card">
+                <header>
+                    <div class="top-nav">
+                        <a class="home" href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#about">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </header>
+                <div class="feature-msg">
+                    <span>I'm</span>
+                    <span class="special-yellow">Clarisse Nicole</span>
+                </div>
+                <div class="feature-msg">
+                    <span>A</span>
+                    <span class="special-blue">Software Engineer</span>
+                </div>
+                <div>
+                    <a href="contact.html" class="call-to-action">Hire Me!</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="floating-imgs floating-to-right-img ">
+            <img src="assets/working-lady.svg" alt="working lady" />
+        </div>
+
+        <!-- projects -->
+
+        <div class="container">
+            <div class="grid section-title">
+                <h1>My Work</h1>
+            </div>
+
+            <!-- project 1 -->
+
+            <div class="project grid lean-right-card">
+                <div class="card">
+                    <div class="cart-title">
+                        <h2>
+                            <a href="https://github.com" target="_blank">Point-of-Sales</a>
+                        </h2>
+                    </div>
+                    
+                    <div class="card-body">
+                        <ul class="card-details">
+                            <li>Product CRUD</li>
+                            <li>Product Search</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="floating-imgs floating-to-left-img ">
+                <img src="assets/working-together.svg" alt="working together" />
+            </div>
+
+            <!-- project 2 -->
+
+            <div class="project grid center-card">
+                <div class="card">
+                    <div class="cart-title">
+                        <h2>
+                            <a href="https://github.com" target="_blank">Netflix Clone</a>
+                        </h2>
+                        
+                    </div>
+                    <div class="card-body">
+                        <ul class="card-details">
+                            <li>Browse Movies</li>
+                            <li>Authentication</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="floating-img-wrapper">
+                <div class="floating-imgs floating-center-img ">
+                    <img src="assets/dragging-items.svg" alt="dragging items" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll to top -->
+
+        <div class="scroll-to-top-wrapper">
+            <a href="#home">Scroll to Top</a>
+        </div>
+    </main>  
+</body>
+</html>
