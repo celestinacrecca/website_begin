@@ -1,0 +1,5 @@
+:root {
+    --primary: #F1F3FF;
+    --secondary: #110DE9;
+    --contrast-text-color: black;
+}
